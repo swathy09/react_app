@@ -1,3 +1,26 @@
 div{
 color:#321B16;
 }
+
+.container
+{
+  margin-top: 80px;
+}
+
+#cont
+{
+  color:pink;
+}
+
+body{
+  background-color: pink;
+}
+
+.nav navbar-nav
+{
+  background-color: grey;
+}
+.active
+{
+  color:green;
+}

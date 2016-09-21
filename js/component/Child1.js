@@ -13,7 +13,7 @@ first:function(event)
 handleClick:function()
 {
  var URL="http://www.omdbapi.com/?s="+change;
- console.log(URL);
+ //console.log(URL);
  this.props.data(URL);
 },
 
@@ -22,8 +22,8 @@ render:function()
 return(
 
     <div >
-    Enter name:<input type="text" onChange={this.first}  />
-    <button type="button" onClick={this.handleClick}>Search</button>
+    Enter movie name:<input type="text" onChange={this.first}  /> &nbsp; &nbsp; 
+    <button type="button" className="btn btn-info" onClick={this.handleClick}>Search</button>
     </div>
 );
 }
